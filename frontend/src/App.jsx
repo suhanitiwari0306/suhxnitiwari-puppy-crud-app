@@ -8,6 +8,10 @@ function App() {
     <div className="app-container">
       <Header />
       <Body />
+
+      {/* Chatbot */}
+      <strata-chat workspace="mis372t" />
+
       <Footer />
     </div>
   );
